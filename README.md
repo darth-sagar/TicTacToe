@@ -21,6 +21,14 @@ A fully responsive **Tic Tac Toe** game built with **React.js** that supports tw
 
 ## Screenshots 📸
 
+### Gameplay View
+![Gameplay](public\screenshots\tictactoe_scr_2.jpg)
+![Gameplay](public\screenshots\tictactoe_scr_1.jpg)
+
+### Responsive View (Mobile/Tablet)
+![Responsive View](public\screenshots\tictactoe_scr_3.jpg)
+![Responsive View](public\screenshots\tictactoe_scr_4.jpg)
+
 ## How to Run Locally 🚀
 1. Clone the repository:
    ```bash
