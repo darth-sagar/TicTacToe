@@ -23,7 +23,7 @@ A fully responsive **Tic Tac Toe** game built with **React.js** that supports tw
 public\screenshots\tictactoe_scr_1.jpg
 ### Gameplay View
 ![Gameplay](/public/screenshots/tictactoe_scr_2.jpg)
-![Gameplay](/public/public/screenshots/tictactoe_scr_1.jpg)
+![Gameplay](/public/screenshots/tictactoe_scr_1.jpg)
 
 ### Responsive View (Mobile/Tablet)
 ![Responsive View](/public/screenshots/tictactoe_scr_3.jpg)
