@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .header_line{
     font-size: 40px;
@@ -24,7 +25,7 @@
 }
 
 .reset:active{
-    background-color: rgb(241, 142, 11);
+    background-color: #f18e0b;
     transform: scale(0.98);
 }
 .row-1{
@@ -41,10 +42,129 @@
     margin: 5px;
 }
 .boxes:hover{
-    background-color: rgb(228, 222, 215);
+    background-color: #e4ded7;
     cursor: pointer;
 }
 .boxes:active{
     
     transform: scale(0.98);
 }
+.boxes img{
+    width: 70px;
+    height: 70px;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+.modal_content {
+    background-color: #faebd7;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 5px solid #f18e0b;
+    position: relative;
+    animation: celebrate 0.7s ease-in-out;
+}
+@keyframes celebrate {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.05); 
+    }
+    50% {
+        transform: scale(1); 
+    }
+    75% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.modal_content button {
+    padding: 10px 20px;
+    background-color: #f18e0b;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 2rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.modal_content button:hover {
+    background-color: #f18e0b;
+}
+.modal_content button:active {
+    transform: scale(0.98);
+}
+.scoreboard{
+    justify-content: center;
+    position: absolute;
+    left: 70vw;
+    top: 20vh;
+    height: 250px;
+    width: 200px;
+    background-color: #e0bf99;
+    border-radius: 1rem;
+    padding: 20px;
+    border:3px solid #f18e0b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.scoreboard h3{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+.scoreboard p{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+}
+@media only screen and (max-width: 1330px) {
+    .scoreboard{
+        position: relative;
+        left: 0;
+        top: 0;
+        margin: 20px auto;
+    }
+    .header_line{
+        font-size: 30px;
+    }
+    .boxes{
+        height: 80px;
+        width: 80px;
+    }
+    .boxes img{
+        width: 60px;
+        height: 60px;
+        margin: 10px;
+    }
+    .modal_content {
+        width: 250px;
+        height: 150px;
+    }
+    .modal_content button {
+        font-size: 18px;
+    }
+  }
