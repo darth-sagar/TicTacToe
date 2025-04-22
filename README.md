@@ -20,7 +20,7 @@ A fully responsive **Tic Tac Toe** game built with **React.js** that supports tw
 - JavaScript (ES6)
 
 ## Screenshots 📸
-public\screenshots\tictactoe_scr_1.jpg
+
 ### Gameplay View
 ![Gameplay](/public/screenshots/tictactoe_scr_2.jpg)
 ![Gameplay](/public/screenshots/tictactoe_scr_1.jpg)
